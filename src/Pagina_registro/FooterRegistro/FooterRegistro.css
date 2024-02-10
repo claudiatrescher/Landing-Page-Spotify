@@ -1,0 +1,21 @@
+
+
+.footer{
+    padding: 24px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer span{
+    font-weight: 600;
+    font-size: 0.6875rem;
+    color: #878787;
+
+}
+
+.footer a{
+    font-weight: 600;
+    color: #878787;
+    font-size: 0.6875rem;
+}
+

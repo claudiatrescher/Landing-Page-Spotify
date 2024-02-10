@@ -1,0 +1,201 @@
+.section__Registro{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.section__Registro .registro__Formulario{
+    padding: 0 32px 0 32px;
+    width: 358px;
+    
+}
+
+.registro__Formulario .titulo__Formulario{
+    color: white;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.registro-email__Titulo{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+
+.registro-email__Input{
+    display: flex;
+    align-items: center;
+    width: 292px;
+    height: 24px;
+    padding: 12px 16px 12px 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #b3b3b3;
+}
+
+.registro-email__Input input{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.registro-email__Link{
+    padding-top: 10px;
+}
+
+.registro-email__Link a{
+    color: #1DB954;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+.botao__seguinte{
+    margin-top: 20px;
+    width: 324px;
+    height: 48px;
+    background-color: #1DB954;
+    border-radius: 40px;
+    border: none;
+}
+
+.botao__seguinte:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.botao__seguinte .texto__botao{
+    font-weight: 550;
+    font-size: 16px;
+
+}
+
+
+.opcoes__registro{
+    margin-top: 20px;
+}
+
+.opcoes__registro .divisor{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #fff;
+}
+
+.divisor::before{
+    position: absolute;
+    display: block;
+    content: "  ";
+    height: 1px;
+    background-color: #878787;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.divisor .text__divisor{
+    position: relative;
+    background-color: black;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.opcoes__registro .buttons-opcoes__registro{
+    margin-top: 32px;
+}
+
+
+.button__opcao{
+    display: flex;
+    margin-top: 10px;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #878787;
+    border-radius: 40px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+    
+
+}
+
+.button__opcao:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.button__opcao img{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+
+.button__opcao .text-button__opcao{
+    display: flex;
+    padding: 7px 31px 7px 55px;
+    color: #fff;
+    font-weight: 600;
+    
+    
+
+
+}
+
+.opcoes__registro .divisor2{
+    margin-top: 40px;
+    background-color: #878787;
+}
+
+
+.opcoes__registro .divisor2{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    justify-content: center;
+    color: #fff;
+}
+
+.divisor2::before{
+    position: absolute;
+    display: block;
+    content: "  ";
+    height: 1px;
+    background-color: #878787;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.opcoes__registro .aviso__conta{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.opcoes__registro .aviso__conta span{
+    color: #878787;
+    font-weight: 600;
+}
+
+.opcoes__registro .aviso__conta a{
+    color: #fff;
+    margin-left: 5px;
+    font-weight: 400;
+}
