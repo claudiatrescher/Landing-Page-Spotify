@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Pagina_inicial/>} />
+          <Route exact path="/projeto-spotify-copia" element={<Pagina_inicial/>} />
           <Route path="/Pagina_registro" element={<Pagina_registro/>} />
         </Routes>
       
